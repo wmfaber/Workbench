@@ -1,0 +1,51 @@
+header {
+	background: lightgray;
+	width: 100%;
+	position: relative;
+	height: 100px;	
+	margin: 0px;
+	border-radius: 15px;
+	padding-top: 0px;
+}
+.menu {
+	display: inline-block;
+}
+.menu li {
+	position: relative;
+	margin-left: 15px;
+	display: inline-block;
+	float: left;
+}
+footer {
+	background:#f5f5f5;
+	border: 1px solid #e3e3e3;
+}
+.float-left {
+	float:left;
+}
+
+.main {
+	margin-top:15px;
+	min-height:100%;
+}
+.input-xlarge {
+  width: 270px;
+}
+.form-vert-label {
+	display:inline-block;
+	margin-bottom: 5px;
+}
+.navbar-inverse {background-color: #193989!important;}
+.navbar-inverse .navbar-brand { color: #ee3224; text-transform:uppercase;}
+.navbar-inverse .navbar-nav > .active > a { background-color:#102354;}
+.navbar-inverse .navbar-nav > .active > a:hover { background-color:#0D1C42!important;}
+th:hover { 
+	-webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  transition: all 200ms linear;
+	background-color:#ee3224; color: rgb(240, 236, 236);
+}
+.glyphicon { color:#ee3224;}
+#loaded-entrys-switch { width: 100px;display: inline; padding: 2px 12px; height:auto}
